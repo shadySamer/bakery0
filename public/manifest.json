@@ -1,0 +1,17 @@
+{
+  "name": "فُــرن - إدارة المخبز الذكية",
+  "short_name": "فُــرن",
+  "description": "نظام إدارة المخبز المتكامل لمسؤول المخبز وصاحبه.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fffbef",
+  "theme_color": "#92400e",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
