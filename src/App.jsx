@@ -1172,7 +1172,7 @@ function App() {
   );
 }
 
-const ActivationOverlay = ({ onActivated }) => {
+function ActivationOverlay({ onActivated }) {
   const [password, setPassword] = useState('');
   const [bakeryName, setBakeryName] = useState('');
   const [error, setError] = useState('');
@@ -1254,6 +1254,6 @@ const ActivationOverlay = ({ onActivated }) => {
       </div>
     </motion.div>
   );
-};
+}
 
 export default App;
